@@ -11,8 +11,6 @@ def timeout(_timeout_count, _timeouts):
         #print '\nTimeouts have exceeded max number. Exiting!'
         sys.exit()
     else:
-        print '\nTimeout! Waiting', str(_timeouts[_timeout_count] / 60), 'minute(s) before resuming...'
-        sleep(_timeouts[_timeout_count])
 
 swipe_rate = 0.5 #Delay time in seconds
 facebook_token = '***FACEBOOK TOKEN***' #I had to use Charles Proxy to intercept the Tinder app packet from my phone with this in
