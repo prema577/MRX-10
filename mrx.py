@@ -10,6 +10,7 @@ from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys,uuid,getpass
 import os,base64,zlib,pip,urllib
 import os,zlib,time,datetime
+from rich.panel import Panel
 from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from time import localtime as lt
