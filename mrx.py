@@ -45,7 +45,6 @@ from os import system as cmd
 from zlib import decompress 
 import os, platform
 import requests,bs4,json,os,sys,random,datetime,time,re,string
-from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
