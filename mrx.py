@@ -10,7 +10,6 @@ from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys,uuid,getpass
 import os,base64,zlib,pip,urllib
 import os,zlib,time,datetime
-from rich.panel import Panel
 from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from time import localtime as lt
@@ -46,7 +45,6 @@ from os import system as cmd
 from zlib import decompress 
 import os, platform
 import requests,bs4,json,os,sys,random,datetime,time,re,string
-import urllib3,rich,base64
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
